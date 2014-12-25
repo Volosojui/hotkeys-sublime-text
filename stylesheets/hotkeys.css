@@ -1,0 +1,120 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.429em;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .1em;
+	color: #222;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.hotkeys {
+	padding: 15px;
+}
+
+.hotkeys-title {
+	margin-bottom: 1.5em;
+	font-weight: 100;
+	font-size: 3.5em;
+	line-height: 1.4;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .15em;
+	color: #444;
+}
+
+.hotkeys-title span {
+	background-color: #fff665;
+	box-shadow: 0 0 0 10px #fff665;
+}
+
+.hotkeys-grid:before, .hotkeys-grid:after {
+	content: "";
+	display: table;
+}
+
+.hotkeys-grid:after {
+	clear: both;
+}
+
+.hotkeys-grid-col {
+	width: 33.3333%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hotkeys-grid-col-inner {
+	padding: 0 1em;
+}
+
+.hotkeys-list {
+	margin-bottom: 4em;
+	padding: 0;
+	list-style-type: none;
+}
+
+.hotkeys-item {
+	margin: 2em 0;
+	padding-left: 3.077em;
+}
+
+.hotkeys-item-name {
+	margin-left: -1.538em;
+	display: block;
+	margin-bottom: .462em;
+}
+
+.hotkeys-item-comb {
+	padding: .15em .5em;
+	display: inline-block;
+	background-color: #e8ecf2;
+	font-size: 1em;
+}
+
+.hotkeys-item-comb span {
+	margin: 0 .25em;
+	position: relative;
+	top: -.1em;
+	font-size: 80%;
+	color: #b0b5bd;
+}
+
+.hotkeys-item-desc {
+	color: #555;
+}
+
+
+@media (max-width: 940px) {
+	.hotkeys-grid-col {
+		width: 50%;
+	}
+}
+
+@media (max-width: 640px) {
+	.hotkeys-title {
+		margin: 1em .25em;
+		font-size: 2.2em;
+		text-align: left;
+	}
+
+	.hotkeys-grid-col {
+		width: 100%;
+	}
+}
